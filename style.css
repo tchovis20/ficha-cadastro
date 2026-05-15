@@ -1,0 +1,10 @@
+.dados-pessoais {
+    display: flex;
+    flex-direction: column;
+    border: solid 1px #000;
+    width: 1000px;
+    border-radius: 10px;
+    margin: auto;
+    padding: 20px;
+    gap: 5px;
+}
