@@ -1,10 +1,31 @@
-.dados-pessoais {
-    display: flex;
-    flex-direction: column;
-    border: solid 1px #000;
+body {
+    margin: 0;
+    padding: 0;
+    background: #efefef;
+}
+
+.topo {
+    display: flex; 
     width: 1000px;
+    background-color: #4682B4;
     border-radius: 10px;
     margin: auto;
-    padding: 20px;
-    gap: 5px;
+    margin-top: 40px;
+    padding: 25px;
+    color: #efefef
+}
+
+.topo img {
+    width: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image {
+    flex: 1;
+}
+
+.cadastro-topo {
+    flex: 4;
 }
