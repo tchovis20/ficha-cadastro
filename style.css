@@ -16,7 +16,7 @@ body {
 }
 
 .topo img {
-    width: 90px;
+    width: 150px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -28,4 +28,8 @@ body {
 
 .cadastro-topo {
     flex: 4;
+}
+
+.cadastro-topo p {
+    padding-right: 0px;
 }
