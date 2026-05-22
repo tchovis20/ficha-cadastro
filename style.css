@@ -33,3 +33,34 @@ body {
 .cadastro-topo p {
     padding-right: 0px;
 }
+
+.documentos img {
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: #ffa500;
+    border: 5px solid #ffa500;
+}
+
+.documentos {
+    display: flex;
+    width: 1000px;  
+    background-color: #ffc067;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 10px;
+    padding: 25px;
+    color: #000000;
+    justify-content: center;
+}
+
+.dados-left {
+    flex: 2;
+}
+
+.dados-right {
+    flex: 2;
+}
