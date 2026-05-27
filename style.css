@@ -57,10 +57,68 @@ body {
     justify-content: center;
 }
 
+.dados-pessoais {
+    display: flex;
+    width: 1000px;
+    margin: auto;
+    padding: 25px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.dados-pessoais h2 {
+    font-size: 21px;
+    color: #032B63;
+}
+
+.informacao-funcionario {
+    display: flex;
+    justify-content: space-between;
+    width: 950px;
+}
+
+.informacao-funcionario p {
+    background-color: #EDF0F5;
+    line-height: 3;
+    border-radius: 12px;
+    border-width: 12px;
+    border-color: #898b8d;
+    border: 2px solid #898b8d;
+    padding: 2px 8px 2px 8px;
+    font-size: 12px;
+}
+
 .dados-left {
     flex: 2;
 }
 
+.dados-left h1 {
+    font-size: 17px;
+    color: #d46211;
+}
+
 .dados-right {
     flex: 2;
+}
+
+.pequeno {
+    flex: 1;
+}
+
+.medio {
+    flex: 2;
+}
+
+.grande {
+    flex: 3;
+}
+
+.extra {
+    flex: 6;
+}
+
+.linha {
+    display: flex;
+    width: 950px;
 }
