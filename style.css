@@ -65,11 +65,12 @@ body {
     background-color: #fff;
     border-radius: 10px;
     margin-top: 30px;
+    flex-direction: column;
 }
 
 .dados-pessoais h2 {
     font-size: 21px;
-    color: #032B63;
+    color: #051e42;
 }
 
 .informacao-funcionario {
@@ -84,7 +85,7 @@ body {
     border-radius: 12px;
     border-width: 12px;
     border-color: #898b8d;
-    border: 2px solid #898b8d;
+    border: 3px solid #898b8d;
     padding: 2px 8px 2px 8px;
     font-size: 12px;
 }
@@ -104,21 +105,39 @@ body {
 
 .pequeno {
     flex: 1;
+    display: flex;
+    flex-direction: column;
 }
 
 .medio {
     flex: 2;
+    display: flex;
+    flex-direction: column;
 }
 
 .grande {
     flex: 3;
+    display: flex;
+    flex-direction: column;
 }
 
 .extra {
     flex: 6;
+    display: flex;
+    flex-direction: column;
 }
 
 .linha {
     display: flex;
     width: 950px;
+    gap: 20px;
+}
+
+input {
+    height: 32px;
+    border: solid 3px #051e42;
+    border-radius: 4px;
+    margin-top: 8px;
+    outline: none;
+    padding: 6px;
 }
